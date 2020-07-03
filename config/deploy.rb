@@ -1,14 +1,14 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.2"
 
-set :application, "placebazaar"
-set :repo_url, "ssh://gitea@git.webschuur.com:2222/placebazaar/tijden_org_site.git"
+set :application, "flockingbird_social"
+set :repo_url, "ssh://gitea@git.webschuur.com:2222/berkes/flockingbird_social.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/u/apps/open_tijden_org"
+set :deploy_to, "/u/apps/flockingbird_social"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -37,4 +37,3 @@ set :keep_releases, 5
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
-

@@ -1,1 +1,1 @@
-server "open.tijden.org", user: "deploy", roles: %w{web}
+server "flockingbird.social", user: "deploy", roles: %w{web}
