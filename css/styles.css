@@ -38,6 +38,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	align-items: center;
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
@@ -57,15 +58,4 @@ main > .tagline {
 
 .icons-social i {
 	padding: 10px;
-}
-
-.devto {
-	margin-bottom: -0.20rem;
-}
-
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
 }
