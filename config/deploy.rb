@@ -2,7 +2,7 @@
 lock "~> 3.11.2"
 
 set :application, "flockingbird_social"
-set :repo_url, "ssh://gitea@git.webschuur.com:2222/berkes/flockingbird_social.git"
+set :repo_url, "ssh://gitea@git.webschuur.com:2222/flockingbird/flockingbird_social.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
