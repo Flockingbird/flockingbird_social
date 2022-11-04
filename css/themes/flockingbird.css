@@ -1,14 +1,25 @@
 /* Theme */
 
 main {
-	background: #EDEDED;
-	color: #030405;
+  background: #EDEDED;
+  color: #030405;
 }
 
 .icons-social a {
-	color: #030405;
+  color: #030405;
 }
 
 .icons-social a svg path{
-	fill: #030405;
+  fill: #030405;
+}
+
+main > .tagline,
+main > .intro {
+  font-weight: bold;
+}
+
+.feature-list {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 1em;
 }
